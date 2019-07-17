@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Halloween Store</title>
+    <link rel="shortcut icon" href="../../images/favicon.ico" />
+    <link rel="stylesheet" href="../../styles/main_rwd.css" />
+    <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet" href="../../styles/normalize.css" />
+    <link rel="stylesheet" href="../../styles/slicknav.css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="../../js/jquery.slicknav.min.js"></script>
+    <script>
+        $(function () {
+            $('#menu').slicknav({
+                prependTo: '#altMenu'
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <header>
+        <img src="../../images/pumpkin.gif" alt="a pumpkin" class="pumpkin" />
+        <h2 class="title">The Halloween Store</h2>
+        <h3 class="slogan">For the little Goblin in all of us!</h3>
+    </header>
+    <div class="navbar">
+        <a href="#home">Home</a>
+        <a href="#product-list">Product List</a>
+        <a href="#personal">Personal</a>
+        <div class="dropdown">
+            <button class="dropbtn">Decorating Ideas
+            </button>
+            <div class="dropdown-content">
+                <a href="#">Outdoor</a>
+                <a href="#">Indoor</a>
+                <a href="#">Table</a>
+                <a href="#">Treats</a>
+            </div>
+        </div>
+        <a>Join Email</a>
+    </div>
+    <div id="altMenu">
+        <ul id="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#product-list">Product List</a></li>
+            <li><a href="#personal">Personal</a></li>
+            <li><a href="#decorating-ideas">Decorating Ideas</a></li>
+            <li><a href="#join-email">Join Email</a></li>
+        </ul>
+    </div>
+    <main>
+        <section>
+            <div class="main-product">
+                <h1 id="cat-link">20&Prime; Deranged cat</h1>
+                <br />
+                <img src="../../images/cat1.jpg" alt="deranged cat" class="cat-image" />
+                <p class="item-description">This cat provides its own light and is perfect for a backyard haunting.
+                    <br /><strong>Price:</strong> 19.99
+                </p>
+            </div>
+            <div id="recommendations">
+                <p><strong>Customers who bought this also bought:</strong></p>
+                <ul>
+                    <li><img src="flying_bats.jpg"><br /><a href="">Flying bats</a></li>
+                    <li><img src="rat1.jpg"><br /><a href="">16&Prime; Ugly rat</a></li>
+                    <li><img src="strobe1.jpg"><br /><a href="">Mini strobe light</a></li>
+                </ul>
+            </div>
+        </section>
+        <aside>
+            <ul class="categories-list">
+                <li><a href="/slides/products/props.html">Props</a></li>
+                <li><a href="/slides/products/costumes.html">Costumes</a></li>
+                <li><a href="/slides/products/special_effects.html">Special FX</a></li>
+                <li><a href="/slides/products/masks.html">Masks</a></li>
+            </ul>
+        </aside>
+    </main>
+    <footer id="footer">
+        &copy; 2016 Ben Murach
+    </footer>
+</body>
+
+</html>
