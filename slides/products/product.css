@@ -155,6 +155,9 @@ aside {
 
 .item-description {
     margin-left:1em;
+    padding-left:1em;
+    width:40%;
+    float:right;
 }
 
 #recommendations {
@@ -185,17 +188,17 @@ aside {
     height: 55px;
 }
 
-.categories-list {
+#categories-list {
     list-style: none;
 }
 
-.categories-list li {
+#categories-list li {
     background-color:orange;
     margin-bottom: 0.625em;
     border: solid 2px black;
 }
 
-.categories-list li a {
+#categories-list li a {
     color: black;
     font-weight: bold;
     margin-left: 1em;
@@ -204,12 +207,12 @@ aside {
     text-decoration: none;
 }
 
-.categories-list li a:visited {
+#categories-list li a:visited {
     color: orange;
 }
 
-.categories-list li a:hover,
-.categories-list li a:focus {
+#categories-list li a:hover,
+#categories-list li a:focus {
     color: green;
 }
 
@@ -259,12 +262,12 @@ aside {
         height: 10.938em;
     }
 
-    .categories-list {
+    #categories-list {
         width:50%;
         margin:auto;
     }
 
-    .categories-list li {
+    #categories-list li {
         text-align: center;
     }
 
